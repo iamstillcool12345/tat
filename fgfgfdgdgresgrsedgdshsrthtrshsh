@@ -1,4 +1,5 @@
 if islclosure(syn.request) then
+task.wait()
 game:Shutdown()
 end
 
